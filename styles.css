@@ -30,6 +30,7 @@ body {
     grid-row-end: 2;
     border: 1px solid black;
     background-color: whitesmoke;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .mainContentContainer{
@@ -128,4 +129,88 @@ img {
 
 .button:hover {
     background-color: #4a88d3;
+  }
+
+.headerUpper, .headerLower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    /* gap: 40px; */
+}
+
+.headerUpperLeft, 
+.headerUpperRight,
+.headerLowerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.searchButton > img {
+    height: 20px;
+    padding: 8px;
+}
+
+input {
+    width: 700px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    background-color: hsl(210, 30%, 91%);
+    padding-left: 15px;
+}
+
+.avatar > img {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.author > p {
+    font-weight: 700;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.avatar2 > img{ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+} 
+
+.headerLowerRight {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    height: 40px;
+    /* background-color: red; */
+
+}
+
+.headerLowerRight > button {
+    height: 40px;
+    width: 90px;
+    background-color: #60a5fa;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    align-self: center;
+    justify-self: center;
+    font-size: 15px;
   }
