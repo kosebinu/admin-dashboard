@@ -16,7 +16,6 @@ body {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 7;
-    border: 1px solid black;
     background-color: #60a5fa;
     color: white;
     font-weight: 700;
@@ -42,8 +41,6 @@ body {
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 7;
-    border: 1px solid black;
-    background-color: orange;
 }
 
 .projectContainer {
@@ -52,8 +49,9 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 6;
-    border: 1px solid white;
-    background-color: lightblue; 
+    /* border: 1px solid white; */
+    background-color: hsl(210, 30%, 91%);
+
 }
 
 .infoContainer {
@@ -213,4 +211,52 @@ span2 {
     align-self: center;
     justify-self: center;
     font-size: 15px;
+  }
+
+.projectsContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.articleHeading {
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 50px;
+    /* padding-top: 20px; */
+    /* background-color: red; */
+}
+
+  .article1 div {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    justify-self: end;
+    /* background-color: red; */
+  }
+
+  .article1 {
+    display: grid;
+    padding: 35px 27px;
+    border-left: 5px solid orange;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    /* height: 100px; */
+    margin-left: 20px;
+    /* background-color: red; */
+  }
+
+  .article1 .article-content {
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 1px;
+  }
+
+  .article1 p:first-child {
+    font-weight: 700;
   }
